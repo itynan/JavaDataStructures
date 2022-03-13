@@ -2,7 +2,7 @@ package ds;
 
 public class Driver {
 	public static void main(String[] args) {
-		Stack s = new Stack();
+		VecStack s = new VecStack();
 		
 		for(int i = 0; i < 300 ; i+=9) {
 			s.push(i);
